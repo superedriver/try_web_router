@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.3.1
+before_script:
+  - "cp .env.travis .env"
+deploy:
+  provider: heroku
+  api_key: $HEROKU_STAGING_API_KEY
+  app: try-web-router-gem
