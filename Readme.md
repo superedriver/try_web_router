@@ -1,0 +1,1 @@
+The simplest site to show how gem "web_router" works.
